@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Beat The Robot</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <!-- this is the start of content -->
+    <container class="mainCaption">
+      <h1 id="captionOne">
+        beat the robot
+      </h1>
+      <p id="captionTwo">
+        click the robot to start/stop
+      </p>
+    </container>
+    
+      <container id="playBtn" onclick="play();">
+        <img id="btnMedia" 
+             height="450"
+             src="https://cdn.glitch.global/eff5be9a-cdcf-4185-83f3-ef57337b4877/robotInit.gif?v=1648762705375" 
+             onmouseover="onHover();"
+             onmouseout="unHover();"
+             >
+      </container>
+      
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+    </div>
+  </body>
+</html>
