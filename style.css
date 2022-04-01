@@ -1,0 +1,115 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap');
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* adjust typography defaults */
+body {
+  font-family: 'Share Tech Mono', monospace;
+  line-height: 1.5;
+  background-color: #000000;
+  color: white;
+  height: 100%;
+}
+
+/* Elements */
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 6em;
+}
+
+p {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+}
+
+.mainCaption{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#playBtn {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Buttons */
+#gameButtonArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  width:100px;
+  height: 100px;
+  margin-right:2%;
+  border-radius: 100%;
+  border: 5px solid #e8e8e8;
+
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button:hover {
+  border: 3px solid #999999;
+} 
+
+#button1 {
+  background: #67D5CA;
+}
+
+#button1:active, #button1.lit {
+  background: #00ffe3;
+}
+
+#button2 {
+  background: #233258;
+}
+
+#button2:active, #button2.lit {
+  background: #0046ff;
+}
+
+#button3 {
+  background: #F26264;
+}
+
+#button3:active, #button3.lit {
+  background: #ff0007;
+}
+
+#button4 {
+  background: #f09b81;
+}
+
+#button4:active, #button4.lit {
+  background: #ff3a00;
+}
+
+#button5 {
+  background: #bbb9ba;
+}
+
+#button5:active, #button5.lit {
+  background: #ffffff;
+}
