@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **Angel Otero**
+Submitted by: Angel Otero
 
-Time spent: **10** hours spent in total
+Time spent: 10 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/simplistic-bumpy-temple
 
@@ -50,10 +50,19 @@ The following **additional** features are implemented:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+- https://www.w3schools.com/js/js_syntax.asp - Used to reference JavaScript syntax and documentation.
+- https://pages.mtu.edu/~suits/notefreqs.html  - Used to get the frequency in Hz of musical notes/forumla to calculate an octave from a given note.
+- https://www.canva.com/ - Used to get the videos of the robot's faces.
+- https://ezgif.com - Used to convert the robot's faces videos into GIF files.
+- Peek software (https://github.com/phw/peek) - Used to record the game GIFs.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+For this project I used JavaScript to manipulate the captions displayed in the page as well as GIF images used for the start/stop button; these elements change depending on specific actions and game states — starting/ending the game, on mouse hover and when the player wins or loses the game. Since I did not know how any JavaScript prior to the start of this project, these tasks challenged me to look at syntax documentation to learn how to implement JavaScript's object specific functions such as getEelementById and setAttribute, fortunately, JavaScript's syntax resembles Java's syntax so the use of classes and methods was not completely foreign to me. 
+
+What I found more challenging, however, was the proper use of the setTimeout method, which functionality was completely new to me. Somewhere in the process of finishing the game's functionality it occurred to me to implement different melodies to play when the user clicks on the start/end button and when the user won/lost the game, so I created a set of functions for each different melody I wanted to be played. First, I tried using the playTone method provided in the instructions sequentially when the game was started.
+After testing the method, I realized that only the last note was playing, so I took a closer look at the playClueSequence method to try to reverse engineer its functionality. I noticed the setTimeout function was being used inside a for loop to play the notes given by the pattern of notes initialized at the start of the game. Then, I tried using said function in my methods, but I could not get them to work; what really confused me was the way the parameters of the setTimeout function worked when passing a function that takes other parameters as one. Thankfully, I could find the proper documentation of this function, and, after experimenting with the delay parameter for a while, I could finally understand how to correctly impelement the method.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
