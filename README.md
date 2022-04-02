@@ -46,8 +46,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 <img src="./gifs/stop-start.gif">
+![](https://github.com/a-s-o-m/light-and-sound-memory-game/blob/main/gifs/stop-start.gif)
 <img src="./gifs/play-win-lose.gif">
-
+![]https://github.com/a-s-o-m/light-and-sound-memory-game/blob/main/gifs/play-win-lose.gif
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
