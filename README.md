@@ -79,7 +79,8 @@ The following **additional** features are implemented:
 - The medium difficulty would be the way the game is currently set. And the option for the hard difficulty would only be displayed as an extra button after a user beats the robot one time in the medium difficulty.
 - For the hard difficulty I would increase the turns to 15, and I would implement a function that moves the buttons to a random location in the screen on mouse hover, this would create a sense that the robot is cheating to win, which would increase the rate of losing the game, hence increase the replay value and overall fun.
 
-
+## Interview Recording URL Link
+[My 5-minute Interview Recording](https://www.loom.com/share/fc57e77fc91f4240b539597e70754b25)
 
 
 ## License
