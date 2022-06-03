@@ -1,6 +1,6 @@
 # *Memory Game*
 
-Link to project: [https://glitch.com/edit/#!/simplistic-bumpy-temple](https://simplistic-bumpy-temple.glitch.me/)
+Link to project: https://simplistic-bumpy-temple.glitch.me/
 
 ## Required Functionality
 
